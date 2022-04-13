@@ -50,7 +50,7 @@ gem "mail", require: ["mail", "mail/utilities", "mail/parsers"]
 gem "marginalia"
 gem "marginalia-sidekiq"
 gem "mime-types", require: "mime/types/columnar"
-gem "nokogiri"
+gem "nokogiri", ">= 1.13.4"
 gem "octicons_helper"
 gem "octokit"
 gem "oj"
@@ -127,7 +127,7 @@ group :production do
   gem "stackdriver", "~> 0.15.0"
 end
 
-gem "scenic", "~> 1.4"
+gem "scenic", "~> 1.5", ">= 1.5.1"
 
 
 gem "chartkick", "~> 3.4"
