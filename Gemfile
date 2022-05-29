@@ -127,7 +127,7 @@ group :production do
   gem "stackdriver", "~> 0.15.0"
 end
 
-gem "scenic", "~> 1.5", ">= 1.5.1"
+gem "scenic", "~> 1.6", ">= 1.6.0"
 
 
 gem "chartkick", "~> 3.4"
