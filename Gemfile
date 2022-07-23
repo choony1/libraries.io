@@ -21,7 +21,7 @@ gem "creole"
 gem "dalli"
 gem "dotenv-rails", require: "dotenv/rails-now"
 gem "elasticsearch", "~> 2"
-gem "elasticsearch-model", "~> 5"
+gem "elasticsearch-model", "~> 5", ">= 5.0.0"
 gem "elasticsearch-rails", "~> 5"
 gem "escape_utils"
 gem "faraday-http-cache"
@@ -127,7 +127,7 @@ group :production do
   gem "stackdriver", "~> 0.15.0"
 end
 
-gem "scenic", "~> 1.5", ">= 1.5.1"
+gem "scenic", "~> 1.6", ">= 1.6.0"
 
 
 gem "chartkick", "~> 3.4"
