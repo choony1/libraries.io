@@ -69,7 +69,7 @@ gem "rack-attack"
 gem "rack-attack-rate-limit", require: "rack/attack/rate-limit"
 gem "rack-canonical-host"
 gem "rack-cors", require: "rack/cors"
-gem "rails", "5.2.4.5"
+gem "rails", "5.2.8.1"
 gem "rails-timeago", git: "https://github.com/librariesio/rails-timeago"
 gem "rb-readline"
 gem "rdoc"
@@ -127,7 +127,7 @@ group :production do
   gem "stackdriver", "~> 0.15.0"
 end
 
-gem "scenic", "~> 1.5", ">= 1.5.1"
+gem "scenic", "~> 1.6", ">= 1.6.0"
 
 
 gem "chartkick", "~> 3.4"
