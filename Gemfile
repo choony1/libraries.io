@@ -56,7 +56,7 @@ gem "octokit"
 gem "oj"
 gem "omniauth-bitbucket"
 gem "omniauth-github", git: "https://github.com/omniauth/omniauth-github.git", ref: "967d769"
-gem "omniauth-gitlab"
+gem "omniauth-gitlab", ">= 3.0.0"
 gem "org-ruby"
 gem "parallel", require: nil
 gem "pg"
