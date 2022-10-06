@@ -124,7 +124,7 @@ group :production do
   gem "bugsnag"
   gem "lograge"
   gem "rails_safe_tasks"
-  gem "stackdriver", "~> 0.15.0"
+  gem "stackdriver", "~> 0.15.3"
 end
 
 gem "scenic", "~> 1.5", ">= 1.5.1"
