@@ -61,7 +61,7 @@ gem "org-ruby"
 gem "parallel", require: nil
 gem "pg"
 gem "pg_query"
-gem "pghero"
+gem "pghero", ">= 3.1.0"
 gem "pictogram"
 gem "premailer-rails", "1.9.7"
 gem "puma"
