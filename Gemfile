@@ -122,7 +122,7 @@ end
 
 group :production do
   gem "bugsnag"
-  gem "lograge"
+  gem "lograge", ">= 0.13.0"
   gem "rails_safe_tasks"
   gem "stackdriver", "~> 0.15.0"
 end
