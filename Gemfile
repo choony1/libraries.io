@@ -14,7 +14,7 @@ gem "brotli"
 gem "bundler"
 gem "charlock_holmes", ">= 0.7.5"
 gem "chronic"
-gem "commonmarker"
+gem "commonmarker", ">= 0.23.10"
 gem "concurrent-ruby-ext"
 gem "counter_culture"
 gem "creole"
@@ -124,7 +124,7 @@ group :production do
   gem "bugsnag"
   gem "lograge"
   gem "rails_safe_tasks"
-  gem "stackdriver", "~> 0.15.0"
+  gem "stackdriver", "~> 0.15.4"
 end
 
 gem "scenic", "~> 1.5", ">= 1.5.1"
