@@ -19,7 +19,7 @@ gem "concurrent-ruby-ext"
 gem "counter_culture"
 gem "creole"
 gem "dalli"
-gem "dotenv-rails", require: "dotenv/rails-now"
+gem "dotenv-rails", ">= 2.8.0", require: "dotenv/rails-now"
 gem "elasticsearch", "~> 2"
 gem "elasticsearch-model", "~> 5"
 gem "elasticsearch-rails", "~> 5"
@@ -43,7 +43,7 @@ gem "groupdate"
 gem "hiredis"
 gem "indefinite_article"
 gem 'jb'
-gem "jquery-rails"
+gem "jquery-rails", ">= 4.5.0"
 gem "license-compatibility"
 gem "listen"
 gem "mail", require: ["mail", "mail/utilities", "mail/parsers"]
@@ -51,7 +51,7 @@ gem "marginalia"
 gem "marginalia-sidekiq"
 gem "mime-types", require: "mime/types/columnar"
 gem "nokogiri", ">= 1.13.6"
-gem "octicons_helper"
+gem "octicons_helper", ">= 17.3.0"
 gem "octokit"
 gem "oj"
 gem "omniauth-bitbucket"
@@ -63,13 +63,13 @@ gem "pg"
 gem "pg_query"
 gem "pghero"
 gem "pictogram"
-gem "premailer-rails", "1.9.7"
+gem "premailer-rails", "1.10.3"
 gem "puma"
 gem "rack-attack"
 gem "rack-attack-rate-limit", require: "rack/attack/rate-limit"
 gem "rack-canonical-host"
 gem "rack-cors", require: "rack/cors"
-gem "rails", "5.2.4.5"
+gem "rails", "7.1.0"
 gem "rails-timeago", git: "https://github.com/librariesio/rails-timeago"
 gem "rb-readline"
 gem "rdoc"
@@ -82,7 +82,7 @@ gem "semantic_range"
 gem "sidekiq"
 gem "sidekiq-unique-jobs"
 gem "simple-rss"
-gem "simple_form"
+gem "simple_form", ">= 5.2.0"
 gem "sitemap_generator"
 gem "spdx"
 gem "tomlrb"
@@ -96,13 +96,13 @@ group :development do
   gem "brakeman", require: false
   gem "pry-rails"
   gem "spring"
-  gem "spring-watcher-listen"
+  gem "spring-watcher-listen", ">= 2.1.0"
   gem "sql_queries_count"
 end
 
 group :development, :test do
   gem "pry"
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 3.9.0"
   gem "rubocop", "~> 1.0.0", require: false
 end
 
@@ -122,12 +122,12 @@ end
 
 group :production do
   gem "bugsnag"
-  gem "lograge"
+  gem "lograge", ">= 0.13.0"
   gem "rails_safe_tasks"
   gem "stackdriver", "~> 0.15.0"
 end
 
-gem "scenic", "~> 1.5", ">= 1.5.1"
+gem "scenic", "~> 1.7", ">= 1.7.0"
 
 
 gem "chartkick", "~> 3.4"
