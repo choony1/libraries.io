@@ -50,7 +50,7 @@ gem "mail", require: ["mail", "mail/utilities", "mail/parsers"]
 gem "marginalia"
 gem "marginalia-sidekiq"
 gem "mime-types", require: "mime/types/columnar"
-gem "nokogiri", ">= 1.13.6"
+gem "nokogiri", ">= 1.16.5"
 gem "octicons_helper"
 gem "octokit"
 gem "oj"
