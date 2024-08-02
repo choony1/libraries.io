@@ -31,7 +31,7 @@ gem "fast_xor"
 gem "fast_xs"
 gem "ffi"
 gem "fog-aws"
-gem "fog-google"
+gem "fog-google", ">= 1.16.0"
 gem "font-awesome-rails"
 gem "foreman", require: false
 gem "gemoji"
@@ -103,7 +103,7 @@ end
 group :development, :test do
   gem "pry"
   gem "rspec-rails"
-  gem "rubocop", "~> 1.0.0", require: false
+  gem "rubocop", "~> 1.1.0", require: false
 end
 
 group :test do
