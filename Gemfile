@@ -37,7 +37,7 @@ gem "foreman", require: false
 gem "gemoji"
 gem "github-linguist"
 gem "github-markup", require: "github/markup"
-gem "gitlab"
+gem "gitlab", ">= 4.12.0"
 gem "graphql-client", "~> 0.14.0"
 gem "groupdate"
 gem "hiredis"
